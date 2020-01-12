@@ -2,6 +2,7 @@ import os
 import signal
 import socket
 import select
+import fcntl
 
 pipe_r, pipe_w = os.pipe()
 
