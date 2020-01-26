@@ -4,6 +4,7 @@ import random
 import sys
 import time
 
+
 class KMeansClusterer:
     def __init__(self, ndarray, cluster_num):
         self.ndarray = ndarray
