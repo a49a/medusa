@@ -17,7 +17,7 @@ class BaseA:
 class FooA(BaseA):
     def __init__(self):
         BaseA.__init__(self)
-        super(FooA, self).__init__()
+        super().__init__()
     pass
 
 
